@@ -6,7 +6,6 @@ import Navbar from './components/Navbar'
 import Travel from './pages/Travel'
 import Projects from './pages/Projects'
 import Home from './pages/Home'
-import { CatchingPokemon } from '@mui/icons-material'
 import { Route, Routes } from 'react-router'
 import Music from './pages/Music'
 

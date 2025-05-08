@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-//import { ChevronLeft, ChevronRight } from "@mui/icons-material";
 const Slider = ({ images }) => {
     const [index, setIndex] = useState(0);
     const slidestyles = {
