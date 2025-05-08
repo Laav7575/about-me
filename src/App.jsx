@@ -8,8 +8,10 @@ import Projects from './pages/Projects'
 import Home from './pages/Home'
 import { CatchingPokemon } from '@mui/icons-material'
 import { Route, Routes } from 'react-router'
+import Music from './pages/Music'
 
 function App() {
+  
   return (
     <>
       <Navbar />
@@ -17,7 +19,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/travel" element={<Travel />} />
-          <Route path="/Projects" element={<Projects />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/music" element={<Music />} />
         </Routes>
       </div>
     </>
