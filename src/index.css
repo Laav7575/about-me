@@ -42,6 +42,24 @@ h1 {
   color: #213547;
 }
 
+h2 {
+  font-size: 2em;
+  line-height: 1.1;
+  color: #213547;
+}
+
+p {
+  font-size: 1.5em;
+  line-height: 1.1;
+  color: #213547;
+}
+
+.section ul {
+  font-size: 1.5em;
+  line-height: 1.1;
+  color: #213547;
+}
+
 .nav {
   background-color: #213547;
   color: white;
